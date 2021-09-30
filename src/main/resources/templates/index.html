@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>梦幻之屿皮肤站青春版</title>
+</head>
+<body>
+<form action="setskin" method="post" enctype="multipart/form-data">
+<h1>梦幻之屿皮肤站青春版</h1>
+    <p>
+        在游戏里输入/usertoken获取一串数字, 这就是你的用户凭证.
+
+        然后选择一个皮肤上传, 就可以设置皮肤成功了 = =
+    </p>
+
+    <p>
+        该皮肤站设置成功后, 在服务器内100%生效, 不需要安装任何模组.
+
+        由于时间有限, 暂时没空美化, 不影响功能, 将就看吧 qwq
+    </p>
+
+    <hr/>
+    <p>用户凭证: <label>
+        <input type="text" name="token"/>
+    </label></p>
+    皮肤类型:
+    <label>标准
+        <input type="radio" checked="checked" name="type" value="default"/>
+    </label>
+    <label>
+        苗条
+        <input type="radio" name="type" value="slim"/>
+    </label>
+    <p>选择文件: <input type="file" name="skin"/></p>
+    <input type="submit" value="上传皮肤"/>
+</form>
+</body>
+</html>
